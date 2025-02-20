@@ -1,6 +1,6 @@
 import { LitElement, html, css } from 'lit';
-import { PokemonButton } from './customComponents/pokemon-button';
-import { PokemonCard } from './customComponents/pokemon-card';
+import { PokemonButton } from '../customComponents/pokemon-button';
+import { PokemonCard } from '../customComponents/pokemon-card';
 
 
 export class PokemonListTemplate extends LitElement {

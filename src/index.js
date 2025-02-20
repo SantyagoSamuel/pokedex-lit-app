@@ -1,8 +1,8 @@
 import { LitElement, html, css } from 'lit';
 import { PokemonHeader } from './pages/customComponents/pokemon-header';
-import { PokemonListTemplate } from './pages/pokemon-list-template';
-import { PokemonEvolutionsTemplate } from './pages/pokemon-evolutions-template';
-import { PokemonEditTemplate } from './pages/pokemon-edit-template';
+import { PokemonListTemplate } from './pages/templates/pokemon-list-template';
+import { PokemonEvolutionsTemplate } from './pages/templates/pokemon-evolutions-template';
+import { PokemonEditTemplate } from './pages/templates/pokemon-edit-template';
 import { pokemonManager } from './data-manager/data-manager';
 
 class MyElement extends LitElement {
